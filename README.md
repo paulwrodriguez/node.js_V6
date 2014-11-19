@@ -1,14 +1,15 @@
-Vantiv-Developer-Portal
+Vantiv-Developer-Portal and Vantiv-Payment-Web-Services
 =======================================================
 *** IMPORTANT You will need to create a project at http://vantiv.devportal.apigee.com/ in order to get access to the sandbox and test your code
 
-Integration Guidelines available here: Coming
-Online developers guide: Coming
+Integration Guidelines available here: https://apideveloper.vantiv.com/docs/payment-web-services/implementation-guidelines
+Online developers guide: https://apideveloper.vantiv.com/documentation
 
 GETTING STARTED
 This sample code shows the developer how to integrate with Vantiv-Developer-Portal. Included in this sample code is an
 Authorize, Capture, and Cancel transaction. Run "send_request.js" to send the authorize, followed by the capture,
-followed by the cancel. It will log the request and responses to the console.
+followed by the cancel. It will log the request and responses to the console. To run this, you will need node v0.10.33 or
+later. In the terminal type <node send_request.js> to run the program.
 
 The PHP implementation of Vantiv-Developer-Portal sample code demonstrating how to integrate with both Vantiv-Developer-Portal
 - Contains a REST sample* for integrating to Vantiv-Developer-Portal 
