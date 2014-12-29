@@ -28,26 +28,22 @@ var terminal = {
 
 var transaction = {
 	TransactionID : '123456',
+	MarketCode : 'present',
+	TransactionTimestamp :  new Date().toISOString(),
+	ClerkNumber: '1234',
 	PaymentType : 'single',
 	ReferenceNumber : '100001',
 	DraftLocatorID : '100000001',
-	ClerkNumber: '1234',
-	MarketCode : 'present',
-	TransactionTimestamp :  new Date().toISOString(),
-	SystemTraceID : '100002',
-	TokenRequested : 'false',
-	CaptureAmount : '10.00',
 	AuthorizationCode: '',
 	OriginalAuthorizedAmount: '10.00',
+	CaptureAmount : '10.00',
 	OriginalReferenceNumber: '',
+	TokenRequested : 'false',
+	SystemTraceID : '100002'
 }
 
 var address = {
-	BillingAddress1 : '1234 main street',
-	City : 'Cincinnati',
-	State : 'OH',
-	BillingZipCode : '',
-	CountryCode : 'US'
+	BillingZipcode : '33606',
 }
 
 var card = {

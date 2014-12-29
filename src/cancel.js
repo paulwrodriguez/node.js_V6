@@ -49,11 +49,7 @@ var transaction = {
 }
 
 var address = {
-	BillingAddress1 : '1234 main street',
-	City : 'Cincinnati',
-	State : 'OH',
-	BillingZipCode : '',
-	CountryCode : 'US'
+	BillingZipcode : '33606',
 }
 
 var card = {
