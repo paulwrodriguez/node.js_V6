@@ -33,7 +33,7 @@ var transaction = {
 	ClerkNumber: '1234',
 	PaymentType : 'single',
 	ReferenceNumber : '100001',
-	DraftLocatorID : '100000001',
+	DraftLocatorId : '100000001',
 	AuthorizationCode: '',
 	OriginalAuthorizedAmount: '10.00',
 	CaptureAmount : '10.00',
