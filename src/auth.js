@@ -31,7 +31,7 @@ var transaction = {
 	TransactionID : '123456',
 	PaymentType : 'single',
 	ReferenceNumber : '100001',
-	DraftLocatorId : '100000001',
+	DraftLocatorID : '100000001',
 	ClerkNumber: '1234',
 	MarketCode : 'present',
 	TransactionTimestamp :  new Date().toISOString(),
